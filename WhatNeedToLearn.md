@@ -4,3 +4,5 @@
 * commonjs，cmd ，amd
 * deep copy 的各种实现
 * http
+* tree shaking
+* rollup
