@@ -8,7 +8,8 @@ https://github.com/yygmind/blog/issues/5
 + React怎么做数据的检查和变化
 + React层面的性能优化
 + React中Dom结构发生变化后内部经历了哪些变化
-+ React挂载的时候有3个组件，textComponent、composeComponent、domComponent，区别和关系，Dom结构发生变化时怎么区分data的变化，怎么更新，更新怎么调度，如果更新的时候还有其他任务存在怎么处理
++ React挂载的时候有3个组件，textComponent、composeComponent、domComponent，区别和关系，Dom结构发生变化时怎么区分data的变化，怎么更新，更新怎么调
+度，如果更新的时候还有其他任务存在怎么处理
 + react异步渲染的概念,介绍Time Slicing 和 Suspense
 + 16.X声明周期的改变
 + 16.X中props改变后在哪个生命周期中处理
