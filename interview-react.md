@@ -1,4 +1,4 @@
-####react 生命周期
+#### react 生命周期
 + http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 + react 生命周期包括 初始化阶段，运行阶段 和销毁阶段
 + 初始化阶段：defaultProps, state，componentWiliiMount,render,componentDidMount
@@ -11,7 +11,7 @@
 取而代之的是 getDerivedStateFromProps
 
 
-####异步获取数据建议在componentDidMount 中的原因
+#### 异步获取数据建议在componentDidMount 中的原因
 + 不建议在constructor中，会阻碍组件的实例化,阻碍组件的渲染
 + componentDidMount指的是第一次插入dom完毕,无论在同步和异步模式下都仅会触发一次
 + 在16.3之前的react版本中，是同步渲染的, 在componentWillMount中接口调用,有可能不会触发界面渲染,而在componentDidMount中渲染一定会触发界面渲染
@@ -21,7 +21,7 @@
 而componentWillMount被调用并不能保证componentWillUnmount一定随后被调用
 
 
-####setState 是异步的吗
+#### setState 是异步的吗
 在生命周期和合成事件里是异步的，在原生事件里和setTimeout里是同步的
 https://zhuanlan.zhihu.com/p/39512941 
 
