@@ -1,0 +1,15 @@
+
+https://segmentfault.com/a/1190000011145364
+跨域问题 
+
+同源策略，安全，
+
+只要主机，端口，协议有一个不一样就是跨域
+
+解决跨域问题
+1.jsonp 只适合get
+2.CORS
+3.nginx
+4.postMessage
+5.document.domain 只适合子域
+6.websocket
