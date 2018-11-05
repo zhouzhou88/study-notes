@@ -25,3 +25,4 @@
 在生命周期和合成事件里是异步的，在原生事件里和setTimeout里是同步的
 https://zhuanlan.zhihu.com/p/39512941 
 
+#### react中的key
